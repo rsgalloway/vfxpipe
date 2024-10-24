@@ -31,7 +31,7 @@
 
 import os
 
-from setuptools import  setup
+from setuptools import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, "README.md")) as f:
@@ -41,13 +41,17 @@ with open(os.path.join(here, "requirements.txt")) as f:
 
 setup(
     name="vfxpipe",
-    version="0.1.0",
+    version="0.1.1",
     description="A stack of tools for VFX pipelines",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Ryan Galloway",
     author_email="ryan@rsgalloway.com",
     url="http://github.com/rsgalloway/vfxpipe",
-    install_requires=requirements,
+    install_requires=[
+        "siteconf>=0.1.7",
+        "envstack>=0.4.2",
+        "pyseq>=0.8.0",
+    ],
     zip_safe=False,
 )
