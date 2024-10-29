@@ -48,8 +48,8 @@ setup(
     url="http://github.com/rsgalloway/vfxpipe",
     install_requires=[
         "siteconf>=0.2.0",
-        "envstack>=0.5.0",
-        "distman>=0.1.2",
+        "envstack>=0.5.1",
+        "distman>=0.1.3",
         "pyseq>=0.8.0",
     ],
     zip_safe=False,
