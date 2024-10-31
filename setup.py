@@ -39,15 +39,15 @@ with open(os.path.join(here, "README.md")) as f:
 
 setup(
     name="vfxpipe",
-    version="0.1.7",
-    description="A stack of tools for VFX pipelines",
+    version="0.1.8",
+    description="A stack of tools for production pipelines",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Ryan Galloway",
     author_email="ryan@rsgalloway.com",
     url="http://github.com/rsgalloway/vfxpipe",
     install_requires=[
-        "siteconf>=0.2.0",
+        "siteconf>=0.2.1",
         "envstack>=0.5.2",
         "distman>=0.1.5",
         "pyseq>=0.8.0",
