@@ -1,4 +1,4 @@
 siteconf>=0.2.1
-envstack>=0.5.2
-distman>=0.1.5
+envstack>=0.6.0
+distman>=0.1.7
 pyseq>=0.8.0
