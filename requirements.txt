@@ -1,4 +1,5 @@
-siteconf>=0.2.1
-envstack>=0.6.0
-distman>=0.1.7
-pyseq>=0.8.0
+siteconf==0.3.0
+envstack==0.6.3
+distman==0.2.3
+pyseq==0.8.0
+shotgrid==0.1.3
